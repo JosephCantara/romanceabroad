@@ -9,7 +9,6 @@ public class BaseUI {
 
     WebDriver driver;
     String mainUrl = "https://romanceabroad.com/";
-    String howWeWork = "https://romanceabroad.com/content/view/how-it-works";
 
 
 
@@ -19,7 +18,7 @@ public class BaseUI {
 
     @BeforeMethod
     public void setUp() {
-        System.setProperty("Webdriver.chrome.driver", "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(mainUrl);
@@ -29,7 +28,7 @@ public class BaseUI {
 
     public void afterAction () {
 
-        //driver.quit();
+        driver.quit();
     }
 
 
