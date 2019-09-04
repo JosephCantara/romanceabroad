@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TourPage extends BaseUI {
+public class TourPageTest extends BaseUI {
 
 String currentTourPageUrl;
 String actualTourPageTitle;

@@ -3,7 +3,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class HowWeWorkPage extends BaseUI {
+public class HowWeWorkPageTest extends BaseUI {
 
     String currentAdvertisingUrl;
     String currentEastEuropeWomanUrl;

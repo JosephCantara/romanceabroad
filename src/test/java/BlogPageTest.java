@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BlogPage extends BaseUI {
+public class BlogPageTest extends BaseUI {
 
     String currentEastEuropeWomanUrl;
     String actualEuWomanTitle;

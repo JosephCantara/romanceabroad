@@ -18,6 +18,13 @@ public class Locators {
     public static final By TEXT_FIELD_USERNAME = By.cssSelector("input#nickname");
     public static final By TEXT_FIELD_PHONE = By.xpath("//input[@name='data[phone]']");
     public static final By CHECKBOX = By.cssSelector("input#confirmation");
+    public static final By BEST_SELLER = By.xpath("//div[@class='contrasting-block row g-bestsellers-gallery']");
+    public static final By FLOWER_BASKET_OPTION = By.xpath("//div[@class='panel panel-default pg-panel-default']");
+    public static final By PAYMENT_OPTION = By.xpath("//a[@class='btn btn-primary btn-block']");
+
+
+
+
     //....
     public static final By LINK_EEUWOMAN = By.xpath("//a[@href='/content/view/eastern-european-women']");
     public static final By LINK_BUTTON_SIGN_IN = By.xpath("///button[@name='logbtn']");
@@ -26,6 +33,7 @@ public class Locators {
     public static final By TITTLE_H2_MAIN_PAGE = By.xpath("//h2[contains(text(),'LOVE starts here')]");
     public static final By TITTLE_H3_TOUR_PAGE = By.xpath("//h1[@class='title']");
     public static final By TITTLE_H3_EEWOMAN_PAGE = By.xpath("//h1[contains(text(),'Eastern European Girls')]");
+
 
 
 

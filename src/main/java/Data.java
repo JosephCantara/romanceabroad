@@ -12,6 +12,7 @@ public class Data {
     public static final String expectedAdvertisingUrl = "https://romanceabroad.com/content/view/advertising";
     public static final String expectedEastEuropeWomanUrl = "https://romanceabroad.com/content/view/eastern-european-women";
     public static final String expectedToursToUkraineUrl = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
+    public static final String expectedGiftPageUrl = "https://romanceabroad.com/store/category-sweets";
     public static final int indexAdLink = 0;
 
     //ACTUAL
